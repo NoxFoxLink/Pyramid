@@ -22,6 +22,6 @@ SpectrumView_MaxVal=0
 SpectrumView_MinVal=-80
 ```
 Once everything is set up correctly, launch the software, and it will immediately begin scanning radio frequencies to detect the FPV drone's video signal. If the initialization string is incorrect or your hardware is malfunctioning, you may encounter an error message saying "Failed to init SDR hardware".\
-*Note: Pyramid includes a few SoapySDR plugins: airspy, airspyhf, bladerf, hackrf, lime, redpitaya, remote, sdrplay enabling the use of corresponding hardware devices. For other devices, you may need to provide the appropriate SoapySDR plugin, which should be placed in the SoapySDRplugins subfolder.*
+*Note: Pyramid includes a few SoapySDR plugins: **airspy, airspyhf, audio, bladerf, hackrf, lime, netsdr, plutosdr, redpitaya, remote, rtlsdr, sdrplay, uhd** enabling the use of corresponding hardware devices. For other devices, you may need to provide the appropriate SoapySDR plugin, which should be placed in the SoapySDRplugins subfolder.*
 ## Feedback
 Don't hesitate to share your thoughts and ideas in the Pyranid Software discussion [group](https://groups.google.com/g/noxfoxpyramid).
